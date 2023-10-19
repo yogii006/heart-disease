@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 
-st.header("Yogesh Yadav")
+st.header("Heart disease predictor")
 new_model = pickle.load(open('model1.pkl','rb'))
 
 
