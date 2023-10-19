@@ -22,6 +22,6 @@ prediction = new_model.predict(input_data_reshaped)
 st.write(prediction)
 
 if (prediction[0]== 0):
-  print('The Person does not have a Heart Disease')
+  st.write('The Person does not have a Heart Disease')
 else:
-  print('The Person has Heart Disease')
+  st.write('The Person has Heart Disease')
